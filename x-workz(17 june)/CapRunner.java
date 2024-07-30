@@ -1,0 +1,243 @@
+//30-07-2024
+
+class CapRunner
+{
+public static void main(String[] args)
+{
+Cap cap=new Cap("white",150,5000);
+System.out.println("color:"+cap.color);
+System.out.println("cost:"+cap.cost);
+System.out.println("price:"+cap.price);
+Cap cap1=new Cap("Black",200,6000);
+System.out.println("color:"+cap1.color);
+System.out.println("cost:"+cap1.cost);
+System.out.println("price:"+cap1.price);
+Cap cap2=new Cap("blue",210,2000);
+System.out.println("color:"+cap2.color);
+System.out.println("cost:"+cap2.cost);
+System.out.println("price:"+cap2.price);
+Cap cap3=new Cap("yellow",250,2500);
+System.out.println("color:"+cap3.color);
+System.out.println("cost:"+cap3.cost);
+System.out.println("price:"+cap3.price);
+Cap cap4=new Cap("white",150,50);
+System.out.println("color:"+cap4.color);
+System.out.println("cost:"+cap4.cost);
+System.out.println("price:"+cap4.price);
+Cap cap5=new Cap("pink",300,8000);
+System.out.println("color:"+cap5.color);
+System.out.println("cost:"+cap5.cost);
+System.out.println("price:"+cap5.price);
+Cap cap6=new Cap("white",320,8050);
+System.out.println("color:"+cap6.color);
+System.out.println("cost:"+cap6.cost);
+System.out.println("price:"+cap6.price);
+Cap cap7=new Cap("white",300,5500);
+System.out.println("color:"+cap7.color);
+System.out.println("cost:"+cap7.cost);
+System.out.println("price:"+cap7.price);
+Cap cap8=new Cap("white",180,5000);
+System.out.println("color:"+cap8.color);
+System.out.println("cost:"+cap8.cost);
+System.out.println("price:"+cap8.price);
+Cap cap9=new Cap("white",260,5500);
+System.out.println("color:"+cap9.color);
+System.out.println("cost:"+cap9.cost);
+System.out.println("price:"+cap9.price);
+Cap cap10=new Cap("white",350,9050);
+System.out.println("color:"+cap10.color);
+System.out.println("cost:"+cap10.cost);
+System.out.println("price:"+cap10.price);
+
+
+Gold gold=new Gold("Rose gold","yellow",6320);
+System.out.println("type:"+gold.type);
+System.out.println("color:"+gold.color);
+System.out.println("rate:"+gold.rate);
+Gold gold1=new Gold("purple gold","purple",6230);
+System.out.println("type:"+gold1.type);
+System.out.println("color:"+gold1.color);
+System.out.println("rate:"+gold1.rate);
+Gold gold2=new Gold("24 caret","yellow",6330);
+System.out.println("type:"+gold2.type);
+System.out.println("color:"+gold2.color);
+System.out.println("rate:"+gold2.rate);
+Gold gold3=new Gold("10 caret","red",6321);
+System.out.println("type:"+gold3.type);
+System.out.println("color:"+gold3.color);
+System.out.println("rate:"+gold3.rate);
+Gold gold4=new Gold("16 caret","orange",6320);
+System.out.println("type:"+gold4.type);
+System.out.println("color:"+gold4.color);
+System.out.println("rate:"+gold4.rate);
+Gold gold5=new Gold("pink gold","pink",6120);
+System.out.println("type:"+gold5.type);
+System.out.println("color:"+gold5.color);
+System.out.println("rate:"+gold5.rate);
+Gold gold6=new Gold("gold filled","red",6320);
+System.out.println("type:"+gold6.type);
+System.out.println("color:"+gold6.color);
+System.out.println("rate:"+gold6.rate);
+Gold gold7=new Gold("30 carete","yellow",5820);
+System.out.println("type:"+gold7.type);
+System.out.println("color:"+gold7.color);
+System.out.println("rate:"+gold7.rate);
+Gold gold8=new Gold("25 caret","yellowRed",6420);
+System.out.println("type:"+gold8.type);
+System.out.println("color:"+gold8.color);
+System.out.println("rate:"+gold8.rate);
+Gold gold9=new Gold("green gold","yellow",6620);
+System.out.println("type:"+gold9.type);
+System.out.println("color:"+gold9.color);
+System.out.println("rate:"+gold9.rate);
+Gold gold10=new Gold("blue gold","yellow",6520);
+System.out.println("type:"+gold10.type);
+System.out.println("color:"+gold10.color);
+System.out.println("rate:"+gold10.rate);
+
+Board board=new Board("black",30,20.5);
+System.out.println("color:"+board.color);
+System.out.println("width:"+board.width);
+System.out.println("rate:"+board.height);
+Board board1=new Board("green",20,10.5);
+System.out.println("color:"+board1.color);
+System.out.println("width:"+board1.width);
+System.out.println("rate:"+board1.height);
+Board board2=new Board("blue",40,30.5);
+System.out.println("color:"+board2.color);
+System.out.println("width:"+board2.width);
+System.out.println("rate:"+board2.height);
+Board board3=new Board("white",45,35.5);
+System.out.println("color:"+board3.color);
+System.out.println("width:"+board3.width);
+System.out.println("rate:"+board3.height);
+Board board4=new Board("Whitiss",35,25.5);
+System.out.println("color:"+board.color);
+System.out.println("width:"+board.width);
+System.out.println("rate:"+board.height);
+Board board5=new Board("orang",55,40.5);
+System.out.println("color:"+board5.color);
+System.out.println("width:"+board5.width);
+System.out.println("rate:"+board5.height);
+Board board6=new Board("black",60,50.5);
+System.out.println("color:"+board6.color);
+System.out.println("width:"+board6.width);
+System.out.println("rate:"+board6.height);
+Board board7=new Board("white",35,20.5);
+System.out.println("color:"+board7.color);
+System.out.println("width:"+board7.width);
+System.out.println("rate:"+board7.height);
+Board board8=new Board("green",46,35.5);
+System.out.println("color:"+board8.color);
+System.out.println("width:"+board8.width);
+System.out.println("rate:"+board8.height);
+Board board9=new Board("yellow",30,20.5);
+System.out.println("color:"+board9.color);
+System.out.println("width:"+board9.width);
+System.out.println("rate:"+board9.height);
+Board board10=new Board("black",30,20.5);
+System.out.println("color:"+board10.color);
+System.out.println("width:"+board10.width);
+System.out.println("rate:"+board10.height);
+
+Led led=new Led(50,"strip",80);
+System.out.println("voltage:"+led.voltage);
+System.out.println("type:"+led.type);
+System.out.println("price:"+led.price);
+Led led1=new Led(100,"Track",150);
+System.out.println("voltage:"+led1.voltage);
+System.out.println("type:"+led1.type);
+System.out.println("price:"+led1.price);
+Led led2=new Led(20,"Smart",50);
+System.out.println("voltage:"+led2.voltage);
+System.out.println("type:"+led2.type);
+System.out.println("price:"+led2.price);
+Led led3=new Led(100,"Full Spectrum",80);
+System.out.println("voltage:"+led3.voltage);
+System.out.println("type:"+led3.type);
+System.out.println("price:"+led3.price);
+Led led4=new Led(200,"Security",500);
+System.out.println("voltage:"+led4.voltage);
+System.out.println("type:"+led4.type);
+System.out.println("price:"+led4.price);
+Led led5=new Led(150,"Can",80);
+System.out.println("voltage:"+led5.voltage);
+System.out.println("type:"+led5.type);
+System.out.println("price:"+led5.price);
+Led led6=new Led(20,"Decorative",500);
+System.out.println("voltage:"+led6.voltage);
+System.out.println("type:"+led6.type);
+System.out.println("price:"+led6.price);
+Led led7=new Led(10,"stadard",100);
+System.out.println("voltage:"+led7.voltage);
+System.out.println("type:"+led7.type);
+System.out.println("price:"+led7.price);
+Led led8=new Led(50,"Tube",150);
+System.out.println("voltage:"+led8.voltage);
+System.out.println("type:"+led8.type);
+System.out.println("price:"+led8.price);
+Led led9=new Led(160,"Dimmable",250);
+System.out.println("voltage:"+led9.voltage);
+System.out.println("type:"+led9.type);
+System.out.println("price:"+led9.price);
+Led led10=new Led(70,"stadard",350);
+System.out.println("voltage:"+led10.voltage);
+System.out.println("type:"+led10.type);
+System.out.println("price:"+led10.price);
+
+SimCard simCard=new SimCard("airtel","Nano",500);
+System.out.println("brand:"+simCard.brand);
+System.out.println("type:"+simCard.type);
+System.out.println("price:"+simCard.price);
+
+SimCard simCard1=new SimCard("Jio","Dual",1000);
+System.out.println("brand:"+simCard1.brand);
+System.out.println("type:"+simCard1.type);
+System.out.println("price:"+simCard1.price);
+SimCard simCard2=new SimCard("Vadophone","Standard",800);
+System.out.println("brand:"+simCard2.brand);
+System.out.println("type:"+simCard2.type);
+System.out.println("price:"+simCard2.price);
+SimCard simCard3=new SimCard("BSNL","international",2000);
+System.out.println("brand:"+simCard3.brand);
+System.out.println("type:"+simCard3.type);
+System.out.println("price:"+simCard3.price);
+SimCard simCard4=new SimCard("Tata","prepaid",700);
+System.out.println("brand:"+simCard4.brand);
+System.out.println("type:"+simCard4.type);
+System.out.println("price:"+simCard4.price);
+SimCard simCard5=new SimCard("MTNL","Micro",600);
+System.out.println("brand:"+simCard5.brand);
+System.out.println("type:"+simCard5.type);
+System.out.println("price:"+simCard5.price);
+SimCard simCard6=new SimCard("Tata Tell","Mini",500);
+System.out.println("brand:"+simCard6.brand);
+System.out.println("type:"+simCard6.type);
+System.out.println("price:"+simCard6.price);
+SimCard simCard7=new SimCard("Vi","CDMA",800);
+System.out.println("brand:"+simCard7.brand);
+System.out.println("type:"+simCard7.type);
+System.out.println("price:"+simCard7.price);
+SimCard simCard8=new SimCard("GSM","gsm",1200);
+System.out.println("brand:"+simCard8.brand);
+System.out.println("type:"+simCard8.type);
+System.out.println("price:"+simCard8.price);
+SimCard simCard9=new SimCard("airtel","mini",100);
+System.out.println("brand:"+simCard9.brand);
+System.out.println("type:"+simCard9.type);
+System.out.println("price:"+simCard9.price);
+SimCard simCard10=new SimCard("airtel","mini",100);
+System.out.println("brand:"+simCard10.brand);
+System.out.println("type:"+simCard10.type);
+System.out.println("price:"+simCard10.price);
+
+
+
+
+
+
+
+
+
+}
+}
