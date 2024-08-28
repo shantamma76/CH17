@@ -7,3 +7,4 @@ System.out.println("item:"+item);
 DeliveryVehicle.deliver("Car","RR Nagar");
 }
 }
+
