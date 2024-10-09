@@ -19,11 +19,14 @@ public class SortingRunner {
 		number.add(1006L);
 		number.add(1014L);
 		
-		System.out.println("sorting in desending order:");
+		System.out.println("============before sorted=======");
 		number.forEach((ref)->System.out.println(ref));
 		
-		System.out.println("After sorting in asending order:");
+		System.out.println("=============sorting in asending order:=============");
 		number.stream().sorted().collect(Collectors.toList()).forEach((ref) -> System.out.println(ref));
+		
+		System.out.println("========sorting in desending order===========");
+		number.stream().sorted((ref1,ref2)->ref2.compareTo(ref1)).collect(Collectors.toList()).forEach((ref)-> System.out.println(ref));
 		
 		System.out.println("===========================================================================");
 		
@@ -43,11 +46,14 @@ public class SortingRunner {
 		names.add("Manmohan Singh");
 		names.add("Narendra Modi");
 		
-		System.out.println("Sorting in Desending order...........");
+		System.out.println("====before Sorting====");
 		names.forEach((ref1)->System.out.println(ref1));
 		
-		System.out.println("After Sorting in Asending order...........");
+		System.out.println("============Sorting in Asending order=========");
 		names.stream().sorted().collect(Collectors.toList()).forEach((ref1)->System.out.println(ref1));
+		
+		System.out.println("============sorting in desending order===========");
+		number.stream().sorted((ref1,ref2)->ref2.compareTo(ref1)).collect(Collectors.toList()).forEach((ref)-> System.out.println(ref));
 		
 		System.out.println("===========================================================================");
 		
@@ -81,11 +87,14 @@ public class SortingRunner {
 		states.add("Nagaland");
 		states.add("Meghalaya");
 		
-		System.out.println("Sorting in Desending order...........");
+		System.out.println("=====before sorting=====");
 		states.forEach((ref2)->System.out.println(ref2));
 		
-		System.out.println("After Sorting in Asending order...........");
+		System.out.println("============Sorting in Asending order===========");
 		states.stream().sorted().collect(Collectors.toList()).forEach((ref2)->System.out.println(ref2));
+		
+		System.out.println("============sorting in desending order===========");
+		number.stream().sorted((ref1,ref2)->ref2.compareTo(ref1)).collect(Collectors.toList()).forEach((ref)-> System.out.println(ref));
 		
 	}
 	

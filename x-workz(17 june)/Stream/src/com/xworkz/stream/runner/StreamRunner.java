@@ -34,19 +34,14 @@ public class StreamRunner {
 		collection1.add("Krishna");
 		collection1.add("Godavari");
 		collection1.add("Tunga Badra");
-		
+
 		System.out.println("sorting desending order:");
-		
+
 		collection1.forEach((ref) -> System.out.println(ref));
-		
+
 		System.out.println("After sorting asending order:");
 
 		collection1.stream().sorted().collect(Collectors.toList()).forEach((refer) -> System.out.println(refer));
-		
-	
+
 	}
 }
-
-
-
-
